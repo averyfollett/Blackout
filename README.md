@@ -1,8 +1,3 @@
 man-down-repo
 
-Blackout
-By Man Down Studios
-Co-Op Puzzle Game
-Unreal Engine
-
-
+Unreal Engine 4.24.3 + Visual Studio 2019
