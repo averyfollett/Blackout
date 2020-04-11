@@ -1,4 +1,5 @@
 Restart Level - F1
 Close Game - F2
+Infinite Grab Generator - F3
 Switch to player 1 - 1
 Switch to player 2 - 2
