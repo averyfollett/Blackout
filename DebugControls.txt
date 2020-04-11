@@ -1,0 +1,4 @@
+Restart Level - F1
+Close Game - F2
+Switch to player 1 - 1
+Switch to player 2 - 2

@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>API Reference | UFMODAsset</title>
+<link rel="stylesheet" href="style/docs.css">
+<link rel="stylesheet" href="style/code_highlight.css">
+<script type="text/javascript" src="scripts/language-selector.js"></script></head>
+<body>
+<div class="docs-body">
+<div class="manual-toc">
+<p>UE4 Integration 2.00</p>
+<ul>
+<li><a href="welcome.html">Welcome to the FMOD UE4 Integration</a></li>
+<li><a href="user-guide.html">User Guide</a></li>
+<li><a href="settings.html">Settings</a></li>
+<li><a href="plugins.html">Plugins</a></li>
+<li class="manual-current-chapter manual-inactive-chapter"><a href="api-reference.html">API Reference</a><ul class="subchapters"><li><a href="api-reference-ffmodstudiomodule.html">FFMODStudioModule</a></li><li><a href="api-reference-ifmodstudiomodule.html">IFMODStudioModule</a></li><li><a href="api-reference-fmodutils.html">FMODUtils</a></li><li><a href="api-reference-ufmodblueprintstatics.html">UFMODBlueprintStatics</a></li><li><a href="api-reference-ufmodaudiocomponent.html">UFMODAudioComponent</a></li><li><a href="api-reference-afmodambientsound.html">AFMODAmbientSound</a></li><li><a href="api-reference-ufmodanimnotifyplay.html">UFMODAnimNotifyPlay</a></li><li><a href="api-reference-ffmodlistener.html">FFMODListener</a></li><li><a href="api-reference-ufmodbank.html">UFMODBank</a></li><li><a href="api-reference-ufmodbus.html">UFMODBus</a></li><li><a href="api-reference-ufmodvca.html">UFMODVCA</a></li><li><a href="api-reference-ufmodevent.html">UFMODEvent</a></li><li><a href="api-reference-ufmodsnapshot.html">UFMODSnapshot</a></li><li><a href="api-reference-ufmodsnapshotreverb.html">UFMODSnapshotReverb</a></li><li class="manual-current-chapter manual-active-chapter"><a href="api-reference-ufmodasset.html">UFMODAsset</a></li><li><a href="api-reference-ufmodsettings.html">UFMODSettings</a></li><li><a href="api-reference-ffmodassettable.html">FFmodAssetTable</a></li><li><a href="api-reference-ffmodfilecallbacks.html">FFMODFileCallbacks</a></li><li><a href="api-reference-ffmodbankupdatenotifier.html">FFMODBankUpdateNotifier</a></li><li><a href="api-reference-fmodplatformloaddll_generic.html">FMODPlatformLoadDll_Generic</a></li><li><a href="api-reference-ffmodeventcontrolsectiontemplate.html">FFMODEventControlSectionTemplate</a></li><li><a href="api-reference-ffmodeventparametersectiontemplate.html">FFMODEventParameterSectionTemplate</a></li><li><a href="api-reference-ufmodeventcontrolsection.html">UFMODEventControlSection</a></li><li><a href="api-reference-ufmodeventcontroltrack.html">UFMODEventControlTrack</a></li><li><a href="api-reference-ufmodeventparametertrack.html">UFMODEventParameterTrack</a></li></ul></li>
+<li><a href="blueprint-reference.html">Blueprint Reference</a></li>
+<li><a href="platform-specifics.html">Platform Specifics</a></li>
+<li><a href="troubleshooting.html">Troubleshooting</a></li>
+<li><a href="glossary.html">Glossary</a></li>
+</ul>
+</div>
+<div class="manual-content api">
+<h1>5. API Reference | UFMODAsset</h1>
+<div class="admonition warning">
+<p class="admonition-title">This documentation is preliminary and is subject to change.</p>
+</div>
+<p>Base asset used for creating FMOD object assets in UE4.</p>
+<p>This class inherits from <a href="https://api.unrealengine.com/INT/API/Runtime/CoreUObject/UObject/UObject/index.html">UObject</a></p>
+<p><strong>Properties:</strong></p>
+<ul>
+<li><a class="apilink" href="api-reference-ufmodasset.html#ufmodasset_assetguid" title="The unique Guid, which matches the one exported from FMOD Studio.">UFMODAsset::AssetGuid</a> The unique Guid, which matches the one exported from FMOD Studio.</li>
+<li><a class="apilink" href="api-reference-ufmodasset.html#ufmodasset_bshowasasset" title="Whether to show in the content window.">UFMODAsset::bShowAsAsset</a> Whether to show in the content window.</li>
+<li><a class="apilink" href="api-reference-ufmodasset.html#ufmodasset_filename" title="In memory asset name, created at load time.">UFMODAsset::FileName</a> In memory asset name, created at load time.</li>
+</ul>
+<p><strong>Methods:</strong></p>
+<ul>
+<li><a class="apilink" href="api-reference-ufmodasset.html#ufmodasset_isasset" title="Event triggered when the timeline crosses the notify marker.">UFMODAsset::IsAsset</a> Event triggered when the timeline crosses the notify marker.</li>
+<li><a class="apilink" href="api-reference-ufmodasset.html#ufmodasset_getassetregistrytags" title="Get tags to show in content view.">UFMODAsset::GetAssetRegistryTags</a> Get tags to show in content view.</li>
+</ul>
+<h2 api="struct" id="ufmodasset_assetguid"><a href="#ufmodasset_assetguid">UFMODAsset::AssetGuid</a></h2>
+<p>The unique Guid, which matches the one exported from FMOD Studio.</p>
+<p>
+<div class="language-selector">
+<div class="language-tab" data-language="language-cpp">C++</div>
+</div>
+</p>
+<div class="highlight language-cpp"><pre><span></span><span class="n">FGuid</span> <span class="n">AssetGuid</span><span class="p">;</span>
+</pre></div>
+
+
+<h2 api="function" id="ufmodasset_bshowasasset"><a href="#ufmodasset_bshowasasset">UFMODAsset::bShowAsAsset</a></h2>
+<p>Whether to show in the content window.</p>
+<p>
+<div class="language-selector">
+<div class="language-tab" data-language="language-cpp">C++</div>
+</div>
+</p>
+<div class="highlight language-cpp"><pre><span></span><span class="kt">bool</span> <span class="n">bShowAsAsset</span><span class="p">;</span>
+</pre></div>
+
+
+<h2 api="struct" id="ufmodasset_filename"><a href="#ufmodasset_filename">UFMODAsset::FileName</a></h2>
+<p>In memory asset name, created at load time.</p>
+<p>
+<div class="language-selector">
+<div class="language-tab" data-language="language-cpp">C++</div>
+</div>
+</p>
+<div class="highlight language-cpp"><pre><span></span><span class="n">FString</span> <span class="n">FileName</span><span class="p">;</span>
+</pre></div>
+
+
+<h2 api="function" id="ufmodasset_getassetregistrytags"><a href="#ufmodasset_getassetregistrytags">UFMODAsset::GetAssetRegistryTags</a></h2>
+<p>Get tags to show in content view.</p>
+<p>
+<div class="language-selector">
+<div class="language-tab" data-language="language-cpp">C++</div>
+</div>
+</p>
+<div class="highlight language-cpp"><pre><span></span><span class="k">virtual</span> <span class="kt">void</span> <span class="n">GetAssetRegistryTags</span><span class="p">(</span><span class="n">TArray</span><span class="o">&lt;</span><span class="n">FAssetRegistryTag</span><span class="o">&gt;</span> <span class="o">&amp;</span><span class="n">OutTags</span><span class="p">)</span> <span class="k">const</span> <span class="k">override</span>
+</pre></div>
+
+
+<dl>
+<dt>OutTags</dt>
+<dd></dd>
+</dl>
+<h2 api="function" id="ufmodasset_isasset"><a href="#ufmodasset_isasset">UFMODAsset::IsAsset</a></h2>
+<p>Event triggered when the timeline crosses the notify marker.</p>
+<p>
+<div class="language-selector">
+<div class="language-tab" data-language="language-cpp">C++</div>
+</div>
+</p>
+<div class="highlight language-cpp"><pre><span></span><span class="k">virtual</span> <span class="kt">bool</span> <span class="n">IsAsset</span><span class="p">()</span> <span class="k">const</span> <span class="k">override</span>
+</pre></div>
+
+
+<p>Returns <a class="apilink" href="api-reference-ufmodasset.html#ufmodasset_bshowasasset" title="Whether to show in the content window.">UFMODAsset::bShowAsAsset</a>.</p></div>
+
+<p class="manual-footer">UE4 Integration 2.00.08 (2020-03-02). &copy; 2020 Firelight Technologies Pty Ltd.</p>
+</body>
+</html>
+
+</div>
