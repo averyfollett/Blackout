@@ -1,5 +1,7 @@
 Restart Level - F1
 Close Game - F2
 Infinite Grab Generator - F3
+Open All Doors - F4
+Speedy boi - F5
 Switch to player 1 - 1
 Switch to player 2 - 2
