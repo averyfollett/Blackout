@@ -9,6 +9,7 @@ public class GeneratorTestEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
+		bUsesSteam = true;
 
 		ExtraModuleNames.AddRange( new string[] { "GeneratorTest" } );
 	}
