@@ -9,3 +9,5 @@ Unreal Engine 4.24.3 + Visual Studio 2019
   * Keyboard:
     * WASD to move
     * E to pickup generator
+
+Download the latest release: [HERE](https://github.com/averyfollett/Blackout/releases)
