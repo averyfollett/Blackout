@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.24",
+	"EngineAssociation": "4.25",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -20,10 +20,6 @@
 		},
 		{
 			"Name": "AdvancedSteamSessions",
-			"Enabled": true
-		},
-		{
-			"Name": "FMODStudio",
 			"Enabled": true
 		},
 		{
